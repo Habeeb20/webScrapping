@@ -1,49 +1,61 @@
+// services/websiteScraper.js  (Improved version)
 import { chromium } from 'playwright';
-import { normalizePhone, generateWhatsAppLink } from '../utils/phoneUtils.js';
 
 const emailRegex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/gi;
-const whatsappRegex = /wa\.me\/(\d+)|api\.whatsapp\.com\/send\?phone=(\d+)/gi;
+
+// Better phone regex for Cameroon (+237)
+const phoneRegex = /(?:(?:\+237|00237|237)?[\s.-]?6[0-9]{2}[\s.-]?[0-9]{2}[\s.-]?[0-9]{2}[\s.-]?[0-9]{2})/gi;
+
+const whatsappRegex = /(?:wa\.me\/|api\.whatsapp\.com\/send\?phone=)([0-9]+)/gi;
 
 export const scrapeWebsite = async (url) => {
-  if (!url) return { emails: [], phones: [], whatsapp: [], social: [] };
+  if (!url || url.length < 10) return { emails: [], phones: [], whatsapp: [], social: [] };
 
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
   try {
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 15000 });
+    console.log(`Scraping website: ${url}`);
+    await page.goto(url, { waitUntil: 'networkidle', timeout: 20000 });
 
     const content = await page.content();
-    const text = await page.evaluate(() => document.body.innerText);
+    const text = await page.evaluate(() => document.body.innerText.toLowerCase());
 
-    // Extract emails
+    // Emails
     const emails = [...new Set(content.match(emailRegex) || [])];
 
-    // Extract phones (rough + libphonenumber later)
-    const phoneMatches = text.match(/[\+]?[(]?[0-9]{1,4}[)]?[-\s\.]?[0-9]{3,}[-\s\.]?[0-9]{3,}/g) || [];
+    // Phones
+    let phones = content.match(phoneRegex) || [];
+    phones = [...new Set(phones)];
 
     // WhatsApp links
     const waMatches = [...content.matchAll(whatsappRegex)];
-    const whatsappNumbers = waMatches.map(m => m[1] || m[2]).filter(Boolean);
+    const whatsapp = waMatches.map(m => m[1]).filter(Boolean);
 
-    // Social links (basic)
+    // Also check for "whatsapp" text + nearby numbers
+    if (text.includes('whatsapp') || text.includes('wa.me')) {
+      const extraPhones = text.match(phoneRegex) || [];
+      whatsapp.push(...extraPhones);
+    }
+
+    // Social
     const social = await page.$$eval('a[href]', links =>
       links.map(a => a.href).filter(h => 
-        /facebook|instagram|twitter|linkedin|tiktok/.test(h.toLowerCase())
+        /facebook|instagram|twitter|linkedin|tiktok|wa\.me/.test(h.toLowerCase())
       )
     );
 
     await browser.close();
 
     return {
-      emails: [...new Set(emails)],
-      phones: [...new Set(phoneMatches)],
-      whatsapp: [...new Set(whatsappNumbers)],
+      emails: emails.slice(0, 5),
+      phones: phones.slice(0, 10),
+      whatsapp: [...new Set(whatsapp)].slice(0, 5),
       social: [...new Set(social)]
     };
 
   } catch (error) {
-    console.error(`Scraping failed for ${url}:`, error.message);
+    console.error(`Website scrape failed ${url}:`, error.message);
     await browser.close();
     return { emails: [], phones: [], whatsapp: [], social: [] };
   }
