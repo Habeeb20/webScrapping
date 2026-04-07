@@ -1,0 +1,217 @@
+{
+	"url": "https://quotes.toscrape.com/tag/books/page/1/",
+	"title": "Quotes to Scrape",
+	"headings": [
+		"Quotes to Scrape",
+		"Viewing tag: books",
+		"Top Ten tags"
+	],
+	"paragraphs": [
+		"Login",
+		"Quotes by: GoodReads.com",
+		"Made with ❤ by Zyte"
+	],
+	"links": [
+		{
+			"text": "Quotes to Scrape",
+			"href": "https://quotes.toscrape.com/"
+		},
+		{
+			"text": "Login",
+			"href": "https://quotes.toscrape.com/login"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Jane-Austen"
+		},
+		{
+			"text": "aliteracy",
+			"href": "https://quotes.toscrape.com/tag/aliteracy/page/1/"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "classic",
+			"href": "https://quotes.toscrape.com/tag/classic/page/1/"
+		},
+		{
+			"text": "humor",
+			"href": "https://quotes.toscrape.com/tag/humor/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Mark-Twain"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "contentment",
+			"href": "https://quotes.toscrape.com/tag/contentment/page/1/"
+		},
+		{
+			"text": "friends",
+			"href": "https://quotes.toscrape.com/tag/friends/page/1/"
+		},
+		{
+			"text": "friendship",
+			"href": "https://quotes.toscrape.com/tag/friendship/page/1/"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Jorge-Luis-Borges"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "library",
+			"href": "https://quotes.toscrape.com/tag/library/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/C-S-Lewis"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "inspirational",
+			"href": "https://quotes.toscrape.com/tag/inspirational/page/1/"
+		},
+		{
+			"text": "reading",
+			"href": "https://quotes.toscrape.com/tag/reading/page/1/"
+		},
+		{
+			"text": "tea",
+			"href": "https://quotes.toscrape.com/tag/tea/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Haruki-Murakami"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "thought",
+			"href": "https://quotes.toscrape.com/tag/thought/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Ernest-Hemingway"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "friends",
+			"href": "https://quotes.toscrape.com/tag/friends/page/1/"
+		},
+		{
+			"text": "novelist-quotes",
+			"href": "https://quotes.toscrape.com/tag/novelist-quotes/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/J-D-Salinger"
+		},
+		{
+			"text": "authors",
+			"href": "https://quotes.toscrape.com/tag/authors/page/1/"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "literature",
+			"href": "https://quotes.toscrape.com/tag/literature/page/1/"
+		},
+		{
+			"text": "reading",
+			"href": "https://quotes.toscrape.com/tag/reading/page/1/"
+		},
+		{
+			"text": "writing",
+			"href": "https://quotes.toscrape.com/tag/writing/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Mark-Twain"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "classic",
+			"href": "https://quotes.toscrape.com/tag/classic/page/1/"
+		},
+		{
+			"text": "reading",
+			"href": "https://quotes.toscrape.com/tag/reading/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Jane-Austen"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "library",
+			"href": "https://quotes.toscrape.com/tag/library/page/1/"
+		},
+		{
+			"text": "reading",
+			"href": "https://quotes.toscrape.com/tag/reading/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Madeleine-LEngle"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "children",
+			"href": "https://quotes.toscrape.com/tag/children/page/1/"
+		},
+		{
+			"text": "difficult",
+			"href": "https://quotes.toscrape.com/tag/difficult/page/1/"
+		},
+		{
+			"text": "grown-ups",
+			"href": "https://quotes.toscrape.com/tag/grown-ups/page/1/"
+		},
+		{
+			"text": "write",
+			"href": "https://quotes.toscrape.com/tag/write/page/1/"
+		},
+		{
+			"text": "writers",
+			"href": "https://quotes.toscrape.com/tag/writers/page/1/"
+		}
+	],
+	"scrapedAt": "2026-04-07T09:50:12.375Z"
+}

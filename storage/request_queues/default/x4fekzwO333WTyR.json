@@ -1,0 +1,9 @@
+{
+	"id": "x4fekzwO333WTyR",
+	"json": "{\"id\":\"x4fekzwO333WTyR\",\"url\":\"https://quotes.toscrape.com/tag/humor/\",\"loadedUrl\":\"https://quotes.toscrape.com/tag/humor/\",\"uniqueKey\":\"https://quotes.toscrape.com/tag/humor\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:22.258Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/tag/humor",
+	"url": "https://quotes.toscrape.com/tag/humor/"
+}

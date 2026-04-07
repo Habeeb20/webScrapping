@@ -1,0 +1,121 @@
+{
+	"url": "https://quotes.toscrape.com/tag/simile/page/1/",
+	"title": "Quotes to Scrape",
+	"headings": [
+		"Quotes to Scrape",
+		"Viewing tag: simile",
+		"Top Ten tags"
+	],
+	"paragraphs": [
+		"Login",
+		"Quotes by: GoodReads.com",
+		"Made with ❤ by Zyte"
+	],
+	"links": [
+		{
+			"text": "Quotes to Scrape",
+			"href": "https://quotes.toscrape.com/"
+		},
+		{
+			"text": "Login",
+			"href": "https://quotes.toscrape.com/login"
+		},
+		{
+			"text": "simile",
+			"href": "https://quotes.toscrape.com/tag/simile/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Steve-Martin"
+		},
+		{
+			"text": "humor",
+			"href": "https://quotes.toscrape.com/tag/humor/page/1/"
+		},
+		{
+			"text": "obvious",
+			"href": "https://quotes.toscrape.com/tag/obvious/page/1/"
+		},
+		{
+			"text": "simile",
+			"href": "https://quotes.toscrape.com/tag/simile/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Albert-Einstein"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/page/1/"
+		},
+		{
+			"text": "simile",
+			"href": "https://quotes.toscrape.com/tag/simile/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Stephenie-Meyer"
+		},
+		{
+			"text": "drug",
+			"href": "https://quotes.toscrape.com/tag/drug/page/1/"
+		},
+		{
+			"text": "romance",
+			"href": "https://quotes.toscrape.com/tag/romance/page/1/"
+		},
+		{
+			"text": "simile",
+			"href": "https://quotes.toscrape.com/tag/simile/page/1/"
+		},
+		{
+			"text": "love",
+			"href": "https://quotes.toscrape.com/tag/love/"
+		},
+		{
+			"text": "inspirational",
+			"href": "https://quotes.toscrape.com/tag/inspirational/"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/"
+		},
+		{
+			"text": "humor",
+			"href": "https://quotes.toscrape.com/tag/humor/"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/"
+		},
+		{
+			"text": "reading",
+			"href": "https://quotes.toscrape.com/tag/reading/"
+		},
+		{
+			"text": "friendship",
+			"href": "https://quotes.toscrape.com/tag/friendship/"
+		},
+		{
+			"text": "friends",
+			"href": "https://quotes.toscrape.com/tag/friends/"
+		},
+		{
+			"text": "truth",
+			"href": "https://quotes.toscrape.com/tag/truth/"
+		},
+		{
+			"text": "simile",
+			"href": "https://quotes.toscrape.com/tag/simile/"
+		},
+		{
+			"text": "GoodReads.com",
+			"href": "https://www.goodreads.com/quotes"
+		},
+		{
+			"text": "Zyte",
+			"href": "https://www.zyte.com/"
+		}
+	],
+	"scrapedAt": "2026-04-07T09:50:20.016Z"
+}

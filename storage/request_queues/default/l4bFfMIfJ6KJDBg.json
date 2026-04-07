@@ -1,0 +1,9 @@
+{
+	"id": "l4bFfMIfJ6KJDBg",
+	"json": "{\"id\":\"l4bFfMIfJ6KJDBg\",\"url\":\"https://quotes.toscrape.com\",\"loadedUrl\":\"https://quotes.toscrape.com/\",\"uniqueKey\":\"https://quotes.toscrape.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-07T09:50:00.578Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com",
+	"url": "https://quotes.toscrape.com"
+}

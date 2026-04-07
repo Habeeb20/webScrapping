@@ -1,0 +1,9 @@
+{
+	"id": "N5pyhBUo3ZJAIOY",
+	"json": "{\"id\":\"N5pyhBUo3ZJAIOY\",\"url\":\"https://quotes.toscrape.com/tag/books/\",\"loadedUrl\":\"https://quotes.toscrape.com/tag/books/\",\"uniqueKey\":\"https://quotes.toscrape.com/tag/books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:22.786Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/tag/books",
+	"url": "https://quotes.toscrape.com/tag/books/"
+}

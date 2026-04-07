@@ -1,0 +1,9 @@
+{
+	"id": "mdJaZWV9SrmznPX",
+	"json": "{\"id\":\"mdJaZWV9SrmznPX\",\"url\":\"https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html\",\"loadedUrl\":\"https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html\",\"uniqueKey\":\"https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:28.152Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html",
+	"url": "https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html"
+}

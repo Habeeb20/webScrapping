@@ -1,0 +1,9 @@
+{
+	"id": "ZCjapRKY4Z2kOG7",
+	"json": "{\"id\":\"ZCjapRKY4Z2kOG7\",\"url\":\"https://quotes.toscrape.com/tag/inspirational/\",\"loadedUrl\":\"https://quotes.toscrape.com/tag/inspirational/\",\"uniqueKey\":\"https://quotes.toscrape.com/tag/inspirational\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:21.246Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/tag/inspirational",
+	"url": "https://quotes.toscrape.com/tag/inspirational/"
+}

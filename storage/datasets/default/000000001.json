@@ -1,0 +1,216 @@
+{
+	"url": "https://quotes.toscrape.com",
+	"title": "Quotes to Scrape",
+	"headings": [
+		"Quotes to Scrape",
+		"Top Ten tags"
+	],
+	"paragraphs": [
+		"Login",
+		"Quotes by: GoodReads.com",
+		"Made with ❤ by Zyte"
+	],
+	"links": [
+		{
+			"text": "Quotes to Scrape",
+			"href": "https://quotes.toscrape.com/"
+		},
+		{
+			"text": "Login",
+			"href": "https://quotes.toscrape.com/login"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Albert-Einstein"
+		},
+		{
+			"text": "change",
+			"href": "https://quotes.toscrape.com/tag/change/page/1/"
+		},
+		{
+			"text": "deep-thoughts",
+			"href": "https://quotes.toscrape.com/tag/deep-thoughts/page/1/"
+		},
+		{
+			"text": "thinking",
+			"href": "https://quotes.toscrape.com/tag/thinking/page/1/"
+		},
+		{
+			"text": "world",
+			"href": "https://quotes.toscrape.com/tag/world/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/J-K-Rowling"
+		},
+		{
+			"text": "abilities",
+			"href": "https://quotes.toscrape.com/tag/abilities/page/1/"
+		},
+		{
+			"text": "choices",
+			"href": "https://quotes.toscrape.com/tag/choices/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Albert-Einstein"
+		},
+		{
+			"text": "inspirational",
+			"href": "https://quotes.toscrape.com/tag/inspirational/page/1/"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/page/1/"
+		},
+		{
+			"text": "live",
+			"href": "https://quotes.toscrape.com/tag/live/page/1/"
+		},
+		{
+			"text": "miracle",
+			"href": "https://quotes.toscrape.com/tag/miracle/page/1/"
+		},
+		{
+			"text": "miracles",
+			"href": "https://quotes.toscrape.com/tag/miracles/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Jane-Austen"
+		},
+		{
+			"text": "aliteracy",
+			"href": "https://quotes.toscrape.com/tag/aliteracy/page/1/"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "classic",
+			"href": "https://quotes.toscrape.com/tag/classic/page/1/"
+		},
+		{
+			"text": "humor",
+			"href": "https://quotes.toscrape.com/tag/humor/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Marilyn-Monroe"
+		},
+		{
+			"text": "be-yourself",
+			"href": "https://quotes.toscrape.com/tag/be-yourself/page/1/"
+		},
+		{
+			"text": "inspirational",
+			"href": "https://quotes.toscrape.com/tag/inspirational/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Albert-Einstein"
+		},
+		{
+			"text": "adulthood",
+			"href": "https://quotes.toscrape.com/tag/adulthood/page/1/"
+		},
+		{
+			"text": "success",
+			"href": "https://quotes.toscrape.com/tag/success/page/1/"
+		},
+		{
+			"text": "value",
+			"href": "https://quotes.toscrape.com/tag/value/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Andre-Gide"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/page/1/"
+		},
+		{
+			"text": "love",
+			"href": "https://quotes.toscrape.com/tag/love/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Thomas-A-Edison"
+		},
+		{
+			"text": "edison",
+			"href": "https://quotes.toscrape.com/tag/edison/page/1/"
+		},
+		{
+			"text": "failure",
+			"href": "https://quotes.toscrape.com/tag/failure/page/1/"
+		},
+		{
+			"text": "inspirational",
+			"href": "https://quotes.toscrape.com/tag/inspirational/page/1/"
+		},
+		{
+			"text": "paraphrased",
+			"href": "https://quotes.toscrape.com/tag/paraphrased/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Eleanor-Roosevelt"
+		},
+		{
+			"text": "misattributed-eleanor-roosevelt",
+			"href": "https://quotes.toscrape.com/tag/misattributed-eleanor-roosevelt/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Steve-Martin"
+		},
+		{
+			"text": "humor",
+			"href": "https://quotes.toscrape.com/tag/humor/page/1/"
+		},
+		{
+			"text": "obvious",
+			"href": "https://quotes.toscrape.com/tag/obvious/page/1/"
+		},
+		{
+			"text": "simile",
+			"href": "https://quotes.toscrape.com/tag/simile/page/1/"
+		},
+		{
+			"text": "Next →",
+			"href": "https://quotes.toscrape.com/page/2/"
+		},
+		{
+			"text": "love",
+			"href": "https://quotes.toscrape.com/tag/love/"
+		},
+		{
+			"text": "inspirational",
+			"href": "https://quotes.toscrape.com/tag/inspirational/"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/"
+		},
+		{
+			"text": "humor",
+			"href": "https://quotes.toscrape.com/tag/humor/"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/"
+		},
+		{
+			"text": "reading",
+			"href": "https://quotes.toscrape.com/tag/reading/"
+		},
+		{
+			"text": "friendship",
+			"href": "https://quotes.toscrape.com/tag/friendship/"
+		}
+	],
+	"scrapedAt": "2026-04-07T09:50:00.331Z"
+}

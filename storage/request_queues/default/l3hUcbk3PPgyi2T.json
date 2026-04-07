@@ -1,0 +1,9 @@
+{
+	"id": "l3hUcbk3PPgyi2T",
+	"json": "{\"id\":\"l3hUcbk3PPgyi2T\",\"url\":\"https://quotes.toscrape.com/author/Thomas-A-Edison\",\"loadedUrl\":\"http://quotes.toscrape.com/author/Thomas-A-Edison/\",\"uniqueKey\":\"https://quotes.toscrape.com/author/Thomas-A-Edison\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:17.369Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/author/Thomas-A-Edison",
+	"url": "https://quotes.toscrape.com/author/Thomas-A-Edison"
+}

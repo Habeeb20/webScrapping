@@ -1,0 +1,9 @@
+{
+	"id": "aItJL9Zt6qdGc7B",
+	"json": "{\"id\":\"aItJL9Zt6qdGc7B\",\"url\":\"https://quotes.toscrape.com/tag/obvious/page/1/\",\"loadedUrl\":\"https://quotes.toscrape.com/tag/obvious/page/1/\",\"uniqueKey\":\"https://quotes.toscrape.com/tag/obvious/page/1\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:19.519Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/tag/obvious/page/1",
+	"url": "https://quotes.toscrape.com/tag/obvious/page/1/"
+}

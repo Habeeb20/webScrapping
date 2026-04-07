@@ -1,0 +1,216 @@
+{
+	"url": "https://quotes.toscrape.com/page/2/",
+	"title": "Quotes to Scrape",
+	"headings": [
+		"Quotes to Scrape",
+		"Top Ten tags"
+	],
+	"paragraphs": [
+		"Login",
+		"Quotes by: GoodReads.com",
+		"Made with ❤ by Zyte"
+	],
+	"links": [
+		{
+			"text": "Quotes to Scrape",
+			"href": "https://quotes.toscrape.com/"
+		},
+		{
+			"text": "Login",
+			"href": "https://quotes.toscrape.com/login"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Marilyn-Monroe"
+		},
+		{
+			"text": "friends",
+			"href": "https://quotes.toscrape.com/tag/friends/page/1/"
+		},
+		{
+			"text": "heartbreak",
+			"href": "https://quotes.toscrape.com/tag/heartbreak/page/1/"
+		},
+		{
+			"text": "inspirational",
+			"href": "https://quotes.toscrape.com/tag/inspirational/page/1/"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/page/1/"
+		},
+		{
+			"text": "love",
+			"href": "https://quotes.toscrape.com/tag/love/page/1/"
+		},
+		{
+			"text": "sisters",
+			"href": "https://quotes.toscrape.com/tag/sisters/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/J-K-Rowling"
+		},
+		{
+			"text": "courage",
+			"href": "https://quotes.toscrape.com/tag/courage/page/1/"
+		},
+		{
+			"text": "friends",
+			"href": "https://quotes.toscrape.com/tag/friends/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Albert-Einstein"
+		},
+		{
+			"text": "simplicity",
+			"href": "https://quotes.toscrape.com/tag/simplicity/page/1/"
+		},
+		{
+			"text": "understand",
+			"href": "https://quotes.toscrape.com/tag/understand/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Bob-Marley"
+		},
+		{
+			"text": "love",
+			"href": "https://quotes.toscrape.com/tag/love/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Dr-Seuss"
+		},
+		{
+			"text": "fantasy",
+			"href": "https://quotes.toscrape.com/tag/fantasy/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Douglas-Adams"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/page/1/"
+		},
+		{
+			"text": "navigation",
+			"href": "https://quotes.toscrape.com/tag/navigation/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Elie-Wiesel"
+		},
+		{
+			"text": "activism",
+			"href": "https://quotes.toscrape.com/tag/activism/page/1/"
+		},
+		{
+			"text": "apathy",
+			"href": "https://quotes.toscrape.com/tag/apathy/page/1/"
+		},
+		{
+			"text": "hate",
+			"href": "https://quotes.toscrape.com/tag/hate/page/1/"
+		},
+		{
+			"text": "indifference",
+			"href": "https://quotes.toscrape.com/tag/indifference/page/1/"
+		},
+		{
+			"text": "inspirational",
+			"href": "https://quotes.toscrape.com/tag/inspirational/page/1/"
+		},
+		{
+			"text": "love",
+			"href": "https://quotes.toscrape.com/tag/love/page/1/"
+		},
+		{
+			"text": "opposite",
+			"href": "https://quotes.toscrape.com/tag/opposite/page/1/"
+		},
+		{
+			"text": "philosophy",
+			"href": "https://quotes.toscrape.com/tag/philosophy/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Friedrich-Nietzsche"
+		},
+		{
+			"text": "friendship",
+			"href": "https://quotes.toscrape.com/tag/friendship/page/1/"
+		},
+		{
+			"text": "lack-of-friendship",
+			"href": "https://quotes.toscrape.com/tag/lack-of-friendship/page/1/"
+		},
+		{
+			"text": "lack-of-love",
+			"href": "https://quotes.toscrape.com/tag/lack-of-love/page/1/"
+		},
+		{
+			"text": "love",
+			"href": "https://quotes.toscrape.com/tag/love/page/1/"
+		},
+		{
+			"text": "marriage",
+			"href": "https://quotes.toscrape.com/tag/marriage/page/1/"
+		},
+		{
+			"text": "unhappy-marriage",
+			"href": "https://quotes.toscrape.com/tag/unhappy-marriage/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Mark-Twain"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/page/1/"
+		},
+		{
+			"text": "contentment",
+			"href": "https://quotes.toscrape.com/tag/contentment/page/1/"
+		},
+		{
+			"text": "friends",
+			"href": "https://quotes.toscrape.com/tag/friends/page/1/"
+		},
+		{
+			"text": "friendship",
+			"href": "https://quotes.toscrape.com/tag/friendship/page/1/"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Allen-Saunders"
+		},
+		{
+			"text": "fate",
+			"href": "https://quotes.toscrape.com/tag/fate/page/1/"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/page/1/"
+		},
+		{
+			"text": "misattributed-john-lennon",
+			"href": "https://quotes.toscrape.com/tag/misattributed-john-lennon/page/1/"
+		},
+		{
+			"text": "planning",
+			"href": "https://quotes.toscrape.com/tag/planning/page/1/"
+		},
+		{
+			"text": "plans",
+			"href": "https://quotes.toscrape.com/tag/plans/page/1/"
+		}
+	],
+	"scrapedAt": "2026-04-07T09:50:20.758Z"
+}

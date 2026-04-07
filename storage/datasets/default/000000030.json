@@ -1,0 +1,97 @@
+{
+	"url": "https://quotes.toscrape.com/tag/edison/page/1/",
+	"title": "Quotes to Scrape",
+	"headings": [
+		"Quotes to Scrape",
+		"Viewing tag: edison",
+		"Top Ten tags"
+	],
+	"paragraphs": [
+		"Login",
+		"Quotes by: GoodReads.com",
+		"Made with ❤ by Zyte"
+	],
+	"links": [
+		{
+			"text": "Quotes to Scrape",
+			"href": "https://quotes.toscrape.com/"
+		},
+		{
+			"text": "Login",
+			"href": "https://quotes.toscrape.com/login"
+		},
+		{
+			"text": "edison",
+			"href": "https://quotes.toscrape.com/tag/edison/page/1/"
+		},
+		{
+			"text": "(about)",
+			"href": "https://quotes.toscrape.com/author/Thomas-A-Edison"
+		},
+		{
+			"text": "edison",
+			"href": "https://quotes.toscrape.com/tag/edison/page/1/"
+		},
+		{
+			"text": "failure",
+			"href": "https://quotes.toscrape.com/tag/failure/page/1/"
+		},
+		{
+			"text": "inspirational",
+			"href": "https://quotes.toscrape.com/tag/inspirational/page/1/"
+		},
+		{
+			"text": "paraphrased",
+			"href": "https://quotes.toscrape.com/tag/paraphrased/page/1/"
+		},
+		{
+			"text": "love",
+			"href": "https://quotes.toscrape.com/tag/love/"
+		},
+		{
+			"text": "inspirational",
+			"href": "https://quotes.toscrape.com/tag/inspirational/"
+		},
+		{
+			"text": "life",
+			"href": "https://quotes.toscrape.com/tag/life/"
+		},
+		{
+			"text": "humor",
+			"href": "https://quotes.toscrape.com/tag/humor/"
+		},
+		{
+			"text": "books",
+			"href": "https://quotes.toscrape.com/tag/books/"
+		},
+		{
+			"text": "reading",
+			"href": "https://quotes.toscrape.com/tag/reading/"
+		},
+		{
+			"text": "friendship",
+			"href": "https://quotes.toscrape.com/tag/friendship/"
+		},
+		{
+			"text": "friends",
+			"href": "https://quotes.toscrape.com/tag/friends/"
+		},
+		{
+			"text": "truth",
+			"href": "https://quotes.toscrape.com/tag/truth/"
+		},
+		{
+			"text": "simile",
+			"href": "https://quotes.toscrape.com/tag/simile/"
+		},
+		{
+			"text": "GoodReads.com",
+			"href": "https://www.goodreads.com/quotes"
+		},
+		{
+			"text": "Zyte",
+			"href": "https://www.zyte.com/"
+		}
+	],
+	"scrapedAt": "2026-04-07T09:50:17.442Z"
+}

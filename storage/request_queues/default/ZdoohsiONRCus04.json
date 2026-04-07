@@ -1,0 +1,9 @@
+{
+	"id": "ZdoohsiONRCus04",
+	"json": "{\"id\":\"ZdoohsiONRCus04\",\"url\":\"https://quotes.toscrape.com/author/Marilyn-Monroe\",\"loadedUrl\":\"http://quotes.toscrape.com/author/Marilyn-Monroe/\",\"uniqueKey\":\"https://quotes.toscrape.com/author/Marilyn-Monroe\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:13.344Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/author/Marilyn-Monroe",
+	"url": "https://quotes.toscrape.com/author/Marilyn-Monroe"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HFJuqbmNdt3PgPI",
+	"json": "{\"id\":\"HFJuqbmNdt3PgPI\",\"url\":\"https://quotes.toscrape.com/login\",\"loadedUrl\":\"https://quotes.toscrape.com/login\",\"uniqueKey\":\"https://quotes.toscrape.com/login\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:02.057Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/login",
+	"url": "https://quotes.toscrape.com/login"
+}

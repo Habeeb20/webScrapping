@@ -1,0 +1,34 @@
+{
+	"url": "https://quotes.toscrape.com/author/Jane-Austen",
+	"title": "Quotes to Scrape",
+	"headings": [
+		"Quotes to Scrape",
+		"Jane Austen"
+	],
+	"paragraphs": [
+		"Login",
+		"Born: December 16, 1775 in Steventon Rectory, Hampshire, The United Kingdom",
+		"Description:",
+		"Quotes by: GoodReads.com",
+		"Made with ❤ by Zyte"
+	],
+	"links": [
+		{
+			"text": "Quotes to Scrape",
+			"href": "http://quotes.toscrape.com/"
+		},
+		{
+			"text": "Login",
+			"href": "http://quotes.toscrape.com/login"
+		},
+		{
+			"text": "GoodReads.com",
+			"href": "https://www.goodreads.com/quotes"
+		},
+		{
+			"text": "Zyte",
+			"href": "https://www.zyte.com/"
+		}
+	],
+	"scrapedAt": "2026-04-07T09:50:10.191Z"
+}

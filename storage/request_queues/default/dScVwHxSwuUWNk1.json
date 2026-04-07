@@ -1,0 +1,9 @@
+{
+	"id": "dScVwHxSwuUWNk1",
+	"json": "{\"id\":\"dScVwHxSwuUWNk1\",\"url\":\"https://quotes.toscrape.com/tag/live/page/1/\",\"loadedUrl\":\"https://quotes.toscrape.com/tag/live/page/1/\",\"uniqueKey\":\"https://quotes.toscrape.com/tag/live/page/1\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:09.135Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/tag/live/page/1",
+	"url": "https://quotes.toscrape.com/tag/live/page/1/"
+}

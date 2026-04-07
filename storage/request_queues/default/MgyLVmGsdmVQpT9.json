@@ -1,0 +1,9 @@
+{
+	"id": "MgyLVmGsdmVQpT9",
+	"json": "{\"id\":\"MgyLVmGsdmVQpT9\",\"url\":\"https://quotes.toscrape.com/tag/life/\",\"loadedUrl\":\"https://quotes.toscrape.com/tag/life/\",\"uniqueKey\":\"https://quotes.toscrape.com/tag/life\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:21.643Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/tag/life",
+	"url": "https://quotes.toscrape.com/tag/life/"
+}

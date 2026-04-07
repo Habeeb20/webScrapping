@@ -1,0 +1,31 @@
+{
+	"url": "https://quotes.toscrape.com/login",
+	"title": "Quotes to Scrape",
+	"headings": [
+		"Quotes to Scrape"
+	],
+	"paragraphs": [
+		"Login",
+		"Quotes by: GoodReads.com",
+		"Made with ❤ by Zyte"
+	],
+	"links": [
+		{
+			"text": "Quotes to Scrape",
+			"href": "https://quotes.toscrape.com/"
+		},
+		{
+			"text": "Login",
+			"href": "https://quotes.toscrape.com/login"
+		},
+		{
+			"text": "GoodReads.com",
+			"href": "https://www.goodreads.com/quotes"
+		},
+		{
+			"text": "Zyte",
+			"href": "https://www.zyte.com/"
+		}
+	],
+	"scrapedAt": "2026-04-07T09:50:02.032Z"
+}

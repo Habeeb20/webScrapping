@@ -1,0 +1,9 @@
+{
+	"id": "0rbGo7B7gZ6YqfD",
+	"json": "{\"id\":\"0rbGo7B7gZ6YqfD\",\"url\":\"https://quotes.toscrape.com/author/Steve-Martin\",\"loadedUrl\":\"http://quotes.toscrape.com/author/Steve-Martin/\",\"uniqueKey\":\"https://quotes.toscrape.com/author/Steve-Martin\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:19.168Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/author/Steve-Martin",
+	"url": "https://quotes.toscrape.com/author/Steve-Martin"
+}

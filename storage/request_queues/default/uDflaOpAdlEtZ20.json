@@ -1,0 +1,9 @@
+{
+	"id": "uDflaOpAdlEtZ20",
+	"json": "{\"id\":\"uDflaOpAdlEtZ20\",\"url\":\"https://quotes.toscrape.com/author/Albert-Einstein\",\"loadedUrl\":\"http://quotes.toscrape.com/author/Albert-Einstein/\",\"uniqueKey\":\"https://quotes.toscrape.com/author/Albert-Einstein\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:03.218Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/author/Albert-Einstein",
+	"url": "https://quotes.toscrape.com/author/Albert-Einstein"
+}

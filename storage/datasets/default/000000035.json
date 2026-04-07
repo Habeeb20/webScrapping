@@ -1,0 +1,34 @@
+{
+	"url": "https://quotes.toscrape.com/author/Steve-Martin",
+	"title": "Quotes to Scrape",
+	"headings": [
+		"Quotes to Scrape",
+		"Steve Martin"
+	],
+	"paragraphs": [
+		"Login",
+		"Born: August 14, 1945 in Waco, Texas, The United States",
+		"Description:",
+		"Quotes by: GoodReads.com",
+		"Made with ❤ by Zyte"
+	],
+	"links": [
+		{
+			"text": "Quotes to Scrape",
+			"href": "http://quotes.toscrape.com/"
+		},
+		{
+			"text": "Login",
+			"href": "http://quotes.toscrape.com/login"
+		},
+		{
+			"text": "GoodReads.com",
+			"href": "https://www.goodreads.com/quotes"
+		},
+		{
+			"text": "Zyte",
+			"href": "https://www.zyte.com/"
+		}
+	],
+	"scrapedAt": "2026-04-07T09:50:19.153Z"
+}

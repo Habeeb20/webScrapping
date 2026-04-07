@@ -1,0 +1,9 @@
+{
+	"id": "2cYZgMZkPrQW4tM",
+	"json": "{\"id\":\"2cYZgMZkPrQW4tM\",\"url\":\"https://quotes.toscrape.com/author/Andre-Gide\",\"loadedUrl\":\"http://quotes.toscrape.com/author/Andre-Gide/\",\"uniqueKey\":\"https://quotes.toscrape.com/author/Andre-Gide\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-07T09:50:16.326Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://quotes.toscrape.com/author/Andre-Gide",
+	"url": "https://quotes.toscrape.com/author/Andre-Gide"
+}
