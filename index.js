@@ -15,6 +15,10 @@ connectDb();
 
 app.use('/api/jobs', jobsRouter);
 
+app.get("/", (req, res) => {
+  res.send("webscrapping is listening on port....");
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`🚀 Lead Scraper Server running on port ${PORT}`);
