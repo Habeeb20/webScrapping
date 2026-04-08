@@ -1,7 +1,9 @@
 import express from 'express';
 import { searchGooglePlaces } from '../services/placesServices.js';
 import { processLeads } from '../services/dataProcessor.js';
-import Lead from '../models/lead.js';
+
+import Lead from '../models/Lead.js';
+
 
 const router = express.Router();
 
@@ -80,3 +82,6 @@ router.get('/leads', async (req, res) => {
 
 
 export default router;
+
+
+
