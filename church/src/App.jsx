@@ -421,8 +421,6 @@
 // }
 
 // export default App;
-
-
 import React, { useState } from 'react';
 import { Menu, X, Play, MapPin, Clock, Heart, ChevronDown, ArrowRight } from 'lucide-react';
 
@@ -445,18 +443,18 @@ function App() {
       {/* Navbar */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-2xl z-50 border-b border-purple-100 shadow-xl">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <div className="w-14 h-14 bg-gradient-to-br from-[#4C1D95] to-[#7C3AED] rounded-2xl flex items-center justify-center text-white text-4xl font-bold shadow-xl">
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-12 bg-gradient-to-br from-[#4C1D95] to-[#7C3AED] rounded-2xl flex items-center justify-center text-white text-3xl font-bold shadow-xl">
               ✝
             </div>
             <div>
-              <h1 className="text-3xl font-bold heading-font tracking-tight text-[#4C1D95]">Grace Covenant</h1>
+              <h1 className="text-2xl font-bold heading-font tracking-tight text-[#4C1D95]">Grace Covenant</h1>
               <p className="text-xs -mt-1 text-[#7C3AED] font-medium tracking-widest">INTERNATIONAL CHURCH</p>
             </div>
           </div>
 
-          {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-9 text-base font-medium text-zinc-700">
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-700">
             {navLinks.map((link) => (
               <a
                 key={link.name}
@@ -472,26 +470,26 @@ function App() {
           <div className="hidden md:flex items-center gap-4">
             <button
               onClick={() => setShowPrayerModal(true)}
-              className="px-7 py-3.5 border-2 border-[#4C1D95] text-[#4C1D95] font-semibold rounded-3xl hover:bg-[#4C1D95] hover:text-white transition-all flex items-center gap-2 hover:scale-105"
+              className="px-6 py-3 border-2 border-[#4C1D95] text-[#4C1D95] font-medium rounded-3xl hover:bg-[#4C1D95] hover:text-white transition-all flex items-center gap-2 text-sm hover:scale-105"
             >
-              <Heart className="w-5 h-5" /> Prayer Request
+              <Heart className="w-4 h-4" /> Prayer Request
             </button>
             <a
               href="#give"
-              className="px-8 py-3.5 bg-gradient-to-r from-[#4C1D95] to-[#7C3AED] text-white font-semibold rounded-3xl shadow-lg hover:shadow-xl hover:from-[#F59E0B] hover:to-[#FF6B6B] transition-all flex items-center gap-2 hover:scale-105"
+              className="px-7 py-3 bg-gradient-to-r from-[#4C1D95] to-[#7C3AED] text-white font-medium rounded-3xl shadow-md hover:shadow-lg hover:from-[#F59E0B] hover:to-[#FF6B6B] transition-all flex items-center gap-2 text-sm hover:scale-105"
             >
-              Give Now <ArrowRight className="w-5 h-5" />
+              Give Now <ArrowRight className="w-4 h-4" />
             </a>
           </div>
 
           <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-[#4C1D95]">
-            {isMenuOpen ? <X size={32} /> : <Menu size={32} />}
+            {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-white border-t py-8 px-6 text-lg font-medium space-y-6">
+          <div className="md:hidden bg-white border-t py-6 px-6 text-base font-medium space-y-5">
             {navLinks.map((link) => (
               <a
                 key={link.name}
@@ -511,34 +509,34 @@ function App() {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070')] bg-cover bg-center opacity-35"></div>
 
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-24 left-20 text-[9rem] text-white/10 animate-float">✝</div>
-          <div className="absolute bottom-40 right-28 text-[8rem] text-white/10 animate-float" style={{ animationDelay: '2.5s' }}>✝</div>
+          <div className="absolute top-28 left-20 text-[7rem] text-white/10 animate-float">✝</div>
+          <div className="absolute bottom-40 right-32 text-[6rem] text-white/10 animate-float" style={{ animationDelay: '2.5s' }}>✝</div>
         </div>
 
-        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-          <div className="inline-flex items-center gap-3 bg-white/15 backdrop-blur-md px-8 py-3 rounded-full text-white text-sm mb-8 border border-white/30">
+        <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+          <div className="inline-flex items-center gap-3 bg-white/15 backdrop-blur-md px-6 py-2.5 rounded-full text-white text-sm mb-8 border border-white/30">
             🕊️ A Place of Power & Encounter
           </div>
 
-          <h1 className="text-6xl md:text-7xl font-bold heading-font text-white leading-tight mb-8 tracking-tighter animate-glow">
+          <h1 className="text-5xl md:text-6xl font-bold heading-font text-white leading-tight mb-6 tracking-tighter animate-glow">
             Where Heaven <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F59E0B] to-[#FF6B6B]">Meets Earth</span>
           </h1>
 
-          <p className="text-2xl text-white/90 max-w-3xl mx-auto mb-12">
-            Powerful worship • Life-changing teaching • Miracles, healing & breakthrough every week
+          <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-10">
+            Powerful worship • Life-changing teaching • Miracles, healing & breakthrough
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-5 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#live"
-              className="group px-12 py-6 bg-gradient-to-r from-[#F59E0B] to-[#FF6B6B] text-black font-semibold text-xl rounded-3xl flex items-center justify-center gap-4 hover:scale-110 transition-all shadow-xl"
+              className="group px-10 py-4 bg-gradient-to-r from-[#F59E0B] to-[#FF6B6B] text-black font-semibold rounded-3xl flex items-center justify-center gap-3 hover:scale-105 transition-all shadow-lg text-base"
             >
-              <Play className="w-7 h-7 group-hover:scale-110 transition" fill="currentColor" />
+              <Play className="w-5 h-5 group-hover:scale-110 transition" fill="currentColor" />
               Join Live Service
             </a>
             <a
               href="#pastor"
-              className="px-12 py-6 border-2 border-white text-white font-semibold text-xl rounded-3xl hover:bg-white hover:text-[#4C1D95] transition-all hover:scale-105"
+              className="px-10 py-4 border-2 border-white text-white font-semibold rounded-3xl hover:bg-white hover:text-[#4C1D95] transition-all hover:scale-105 text-base"
             >
               Meet Pastor Michael
             </a>
@@ -546,62 +544,59 @@ function App() {
         </div>
 
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
-          <ChevronDown className="w-10 h-10 text-white/70" />
+          <ChevronDown className="w-8 h-8 text-white/70" />
         </div>
       </section>
 
       {/* PASTOR SECTION */}
-      <section id="pastor" className="py-24 bg-white">
+      <section id="pastor" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div className="space-y-8">
-              <div className="inline-flex items-center gap-3 text-[#F59E0B] font-medium">
-                <div className="h-px w-12 bg-[#F59E0B]"></div>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <div className="inline-flex items-center gap-3 text-[#F59E0B] font-medium text-sm">
+                <div className="h-px w-10 bg-[#F59E0B]"></div>
                 OUR SHEPHERD
               </div>
-              <h2 className="text-5xl md:text-6xl heading-font font-bold leading-tight text-[#4C1D95]">
+              <h2 className="text-4xl md:text-5xl heading-font font-bold leading-tight text-[#4C1D95]">
                 Pastor Dr. Michael Adebayo
               </h2>
-              <p className="text-2xl text-zinc-700">
+              <p className="text-xl text-zinc-700">
                 A vessel of fire called to ignite revival across nations.
               </p>
-              <p className="text-lg text-zinc-600 leading-relaxed">
-                With over 25 years in ministry, Pastor Michael preaches with apostolic authority, deep revelation, 
-                and undeniable signs and wonders. He is married to Rev. Mrs. Grace Adebayo.
+              <p className="text-base text-zinc-600 leading-relaxed">
+                With over 25 years in ministry, Pastor Michael preaches with power, revelation, 
+                and signs & wonders. He is happily married to Rev. Mrs. Grace Adebayo.
               </p>
             </div>
 
             <div className="relative group">
-              <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl ring-4 ring-purple-100">
+              <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-xl ring-4 ring-purple-100">
                 <img
                   src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070"
                   alt="Pastor Michael Adebayo"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
               </div>
-              <div className="absolute -bottom-8 -right-6 bg-white p-8 rounded-3xl shadow-xl max-w-sm">
-                <p className="italic text-lg">"The Holy Spirit is not an option — He is our everything."</p>
-                <p className="mt-6 font-semibold text-[#4C1D95]">— Pastor Dr. Michael Adebayo</p>
+              <div className="absolute -bottom-6 -right-4 bg-white p-6 rounded-3xl shadow-lg max-w-xs text-sm">
+                <p className="italic">"The Holy Spirit is not an option — He is our everything."</p>
+                <p className="mt-4 font-semibold text-[#4C1D95]">— Pastor Dr. Michael Adebayo</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* MINISTRIES - Beautiful & Fully Visible */}
-      {/* MINISTRIES - Beautiful & Fully Visible */}
-      <section id="ministries" className="py-24 bg-gradient-to-br from-[#F3E8FF] via-white to-[#FEF3E8]">
+      {/* MINISTRIES SECTION - Fixed & Balanced */}
+      <section id="ministries" className="py-20 bg-gradient-to-br from-[#F3E8FF] via-white to-[#FEF3E8]">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl heading-font font-bold text-[#4C1D95] mb-4">
-              Our Ministries
-            </h2>
-            <p className="text-xl text-zinc-700 max-w-2xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl heading-font font-bold text-[#4C1D95] mb-3">Our Ministries</h2>
+            <p className="text-base text-zinc-700 max-w-xl mx-auto">
               Raising disciples who carry God's fire in every area of life
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: "Youth Fire", icon: "🔥", desc: "Igniting young hearts with passion for Jesus", color: "from-orange-500 to-red-600" },
               { title: "Children of Promise", icon: "🌈", desc: "Building strong biblical foundations in kids", color: "from-pink-500 to-purple-600" },
@@ -612,39 +607,28 @@ function App() {
             ].map((ministry, i) => (
               <div
                 key={i}
-                className="card-hover bg-white p-10 rounded-3xl border border-transparent group shadow-lg hover:shadow-2xl transition-all duration-300"
-                style={{ animationDelay: `${i * 100}ms` }}
+                className="card-hover bg-white p-8 rounded-3xl border border-transparent group shadow-md hover:shadow-xl transition-all duration-300"
               >
-                <div 
-                  className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${ministry.color} 
-                    flex items-center justify-center text-5xl mb-8 transition-all 
-                    group-hover:scale-110 group-hover:rotate-6 shadow-md`}
-                >
+                <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${ministry.color} flex items-center justify-center text-4xl mb-6 transition-all group-hover:scale-110 group-hover:rotate-6`}>
                   {ministry.icon}
                 </div>
-                <h3 className="text-3xl font-semibold mb-4 text-[#4C1D95]">
-                  {ministry.title}
-                </h3>
-                <p className="text-zinc-600 leading-relaxed">
-                  {ministry.desc}
-                </p>
+                <h3 className="text-2xl font-semibold mb-3 text-[#4C1D95]">{ministry.title}</h3>
+                <p className="text-sm text-zinc-600 leading-relaxed">{ministry.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      
-
-  
-      <section id="sermons" className="py-24 bg-white">
+      {/* SERMONS */}
+      <section id="sermons" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-5xl heading-font font-bold text-[#4C1D95]">Latest Sermons</h2>
-            <p className="text-xl text-zinc-600 mt-3">Powerful messages that transform lives</p>
+            <h2 className="text-4xl heading-font font-bold text-[#4C1D95]">Latest Sermons</h2>
+            <p className="text-base text-zinc-600 mt-2">Powerful messages that transform lives</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-6">
             {[1, 2, 3].map((i) => (
               <div key={i} className="card-hover bg-white border border-zinc-100 rounded-3xl overflow-hidden group">
                 <div className="aspect-video relative overflow-hidden">
@@ -654,13 +638,13 @@ function App() {
                     className="w-full h-full object-cover transition-transform group-hover:scale-105 duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 flex items-center justify-center">
-                    <Play className="w-14 h-14 text-white" />
+                    <Play className="w-12 h-12 text-white" />
                   </div>
                 </div>
-                <div className="p-8">
-                  <div className="text-[#F59E0B] text-sm font-medium mb-3">SUNDAY SERVICE • APRIL 2026</div>
-                  <h3 className="text-2xl font-semibold leading-tight mb-3">Walking in the Supernatural Power of God</h3>
-                  <p className="text-zinc-600 line-clamp-3">Pastor Michael teaches how to activate the miraculous through faith and obedience.</p>
+                <div className="p-6">
+                  <div className="text-[#F59E0B] text-xs font-medium mb-2">SUNDAY SERVICE • APRIL 2026</div>
+                  <h3 className="text-xl font-semibold leading-tight mb-3">Walking in the Supernatural Power of God</h3>
+                  <p className="text-sm text-zinc-600 line-clamp-3">Pastor Michael teaches how to activate miracles through faith.</p>
                 </div>
               </div>
             ))}
@@ -669,21 +653,21 @@ function App() {
       </section>
 
       {/* LIVE STREAM */}
-      <section id="live" className="py-24 bg-gradient-to-br from-[#4C1D95] via-[#7C3AED] to-black text-white">
+      <section id="live" className="py-20 bg-gradient-to-br from-[#4C1D95] via-[#7C3AED] to-black text-white">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <div className="inline-flex items-center gap-4 bg-white/10 backdrop-blur px-10 py-4 rounded-full mb-10">
-            <div className="w-4 h-4 bg-red-500 rounded-full animate-ping"></div>
-            <span className="uppercase tracking-widest font-semibold">LIVE EVERY SUNDAY 8:00 AM WAT</span>
+          <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur px-8 py-3 rounded-full mb-8 text-sm">
+            <div className="w-3 h-3 bg-red-500 rounded-full animate-ping"></div>
+            LIVE EVERY SUNDAY 8:00 AM WAT
           </div>
 
-          <h2 className="text-5xl md:text-6xl heading-font font-bold mb-6">Join Us Live</h2>
-          <p className="text-2xl text-white/80 max-w-2xl mx-auto mb-12">Experience powerful worship and anointed teaching in real time</p>
+          <h2 className="text-4xl md:text-5xl heading-font font-bold mb-6">Join Us Live</h2>
+          <p className="text-base text-white/80 max-w-xl mx-auto mb-10">Experience powerful worship and anointed teaching in real time</p>
 
-          <div className="bg-black/50 backdrop-blur-xl border border-white/20 rounded-3xl aspect-video max-w-5xl mx-auto flex items-center justify-center">
+          <div className="bg-black/50 backdrop-blur-xl border border-white/20 rounded-3xl aspect-video max-w-4xl mx-auto flex items-center justify-center">
             <div className="text-center">
-              <Play className="w-20 h-20 mx-auto mb-8 text-white" fill="currentColor" />
-              <p className="text-3xl font-medium">Sunday Service is LIVE</p>
-              <button className="mt-10 px-14 py-6 bg-gradient-to-r from-[#F59E0B] to-[#FF6B6B] text-black font-semibold text-xl rounded-3xl hover:scale-110 transition-all shadow-xl">
+              <Play className="w-16 h-16 mx-auto mb-6 text-white" fill="currentColor" />
+              <p className="text-2xl font-medium mb-8">Sunday Service is LIVE</p>
+              <button className="px-10 py-4 bg-gradient-to-r from-[#F59E0B] to-[#FF6B6B] text-black font-medium rounded-3xl hover:scale-105 transition-all text-base">
                 Watch Live Now
               </button>
             </div>
@@ -692,29 +676,29 @@ function App() {
       </section>
 
       {/* EVENTS */}
-      <section id="events" className="py-24 bg-white">
+      <section id="events" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-5xl heading-font font-bold text-center text-[#4C1D95] mb-16">Upcoming Events</h2>
+          <h2 className="text-4xl heading-font font-bold text-center text-[#4C1D95] mb-12">Upcoming Events</h2>
 
-          <div className="space-y-8">
+          <div className="space-y-6">
             {[
               { title: "Holy Ghost Crusade 2026", date: "April 20 - 25", time: "6:00 PM Daily", location: "Main Auditorium" },
               { title: "Marriage Enrichment Retreat", date: "May 8 - 9", time: "All Day", location: "Lagos Continental Hotel" },
               { title: "Youth Fire Conference", date: "June 12", time: "9:00 AM", location: "Grace Covenant Sanctuary" },
             ].map((event, i) => (
-              <div key={i} className="card-hover border border-zinc-100 rounded-3xl p-10 flex flex-col md:flex-row gap-8 items-center">
-                <div className="md:w-52 flex-shrink-0">
-                  <div className="text-5xl font-bold text-[#F59E0B]">{event.date.split(" ")[0]}</div>
-                  <div className="text-zinc-500">{event.date.split(" - ")[1]}</div>
+              <div key={i} className="card-hover border border-zinc-100 rounded-3xl p-8 flex flex-col md:flex-row gap-6 items-center">
+                <div className="md:w-40 flex-shrink-0">
+                  <div className="text-4xl font-bold text-[#F59E0B]">{event.date.split(" ")[0]}</div>
+                  <div className="text-sm text-zinc-500">{event.date.split(" - ")[1]}</div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-3xl font-semibold mb-3">{event.title}</h3>
-                  <div className="flex flex-wrap gap-x-8 gap-y-2 text-zinc-600">
-                    <div className="flex items-center gap-2"><Clock className="w-5 h-5" /> {event.time}</div>
-                    <div className="flex items-center gap-2"><MapPin className="w-5 h-5" /> {event.location}</div>
+                  <h3 className="text-2xl font-semibold mb-2">{event.title}</h3>
+                  <div className="flex flex-wrap gap-x-6 gap-y-1 text-sm text-zinc-600">
+                    <div className="flex items-center gap-2"><Clock className="w-4 h-4" /> {event.time}</div>
+                    <div className="flex items-center gap-2"><MapPin className="w-4 h-4" /> {event.location}</div>
                   </div>
                 </div>
-                <button className="px-10 py-4 border-2 border-[#4C1D95] rounded-3xl font-medium hover:bg-[#4C1D95] hover:text-white transition-all">
+                <button className="mt-4 md:mt-0 px-8 py-3 border-2 border-[#4C1D95] text-sm font-medium rounded-3xl hover:bg-[#4C1D95] hover:text-white transition-all">
                   Register Now
                 </button>
               </div>
@@ -726,22 +710,21 @@ function App() {
       {/* PRAYER MODAL */}
       {showPrayerModal && (
         <div className="fixed inset-0 bg-black/90 z-[100] flex items-center justify-center p-6">
-          <div className="bg-white rounded-3xl max-w-lg w-full p-12 relative">
+          <div className="bg-white rounded-3xl max-w-md w-full p-10 relative">
             <button
               onClick={() => setShowPrayerModal(false)}
-              className="absolute top-8 right-8 text-4xl text-zinc-400 hover:text-black"
+              className="absolute top-6 right-6 text-3xl text-zinc-400 hover:text-black"
             >
               ×
             </button>
-            <div className="text-center mb-10">
-              <div className="text-7xl mb-6">🙏</div>
-              <h3 className="text-4xl heading-font font-bold text-[#4C1D95]">Prayer Request</h3>
-              <p className="text-zinc-600 mt-2">We are standing with you in faith</p>
+            <div className="text-center mb-8">
+              <div className="text-6xl mb-4">🙏</div>
+              <h3 className="text-3xl heading-font font-bold text-[#4C1D95]">Prayer Request</h3>
             </div>
-            <form className="space-y-6">
-              <input type="text" placeholder="Your Full Name" className="w-full px-7 py-5 border border-zinc-200 rounded-3xl focus:border-[#4C1D95] text-base" />
-              <textarea rows={6} placeholder="Write your prayer request..." className="w-full px-7 py-5 border border-zinc-200 rounded-3xl focus:border-[#4C1D95] text-base resize-none"></textarea>
-              <button type="submit" className="w-full py-6 bg-gradient-to-r from-[#4C1D95] to-[#7C3AED] text-white font-semibold text-lg rounded-3xl hover:brightness-110 transition">
+            <form className="space-y-5">
+              <input type="text" placeholder="Your Full Name" className="w-full px-6 py-4 border border-zinc-200 rounded-3xl focus:border-[#4C1D95] text-base" />
+              <textarea rows={5} placeholder="Write your prayer request..." className="w-full px-6 py-4 border border-zinc-200 rounded-3xl focus:border-[#4C1D95] text-base resize-none"></textarea>
+              <button type="submit" className="w-full py-4 bg-gradient-to-r from-[#4C1D95] to-[#7C3AED] text-white font-medium rounded-3xl text-base hover:brightness-110 transition">
                 Submit Request
               </button>
             </form>
@@ -750,19 +733,19 @@ function App() {
       )}
 
       {/* TESTIMONIES */}
-      <section className="py-24 bg-gradient-to-br from-[#4C1D95] to-black text-white">
+      <section className="py-20 bg-gradient-to-br from-[#4C1D95] to-black text-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-5xl heading-font font-bold text-center mb-16">Testimonies of God's Goodness</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <h2 className="text-4xl heading-font font-bold text-center mb-12">Testimonies of God's Goodness</h2>
+          <div className="grid md:grid-cols-3 gap-6">
             {[
-              "My daughter was healed of sickle cell after prayers during the crusade. Glory to God!",
-              "I received a miracle job after 3 years of unemployment following one service.",
-              "Our marriage was restored completely after attending the Marriage Retreat.",
+              "My daughter was healed of sickle cell after prayers during the crusade.",
+              "I received a miracle job after years of unemployment following one service.",
+              "Our broken marriage was restored after attending the Marriage Retreat.",
             ].map((testimony, i) => (
-              <div key={i} className="bg-white/10 backdrop-blur border border-white/20 p-10 rounded-3xl">
-                <div className="text-6xl mb-8">“</div>
-                <p className="text-lg leading-relaxed mb-8">{testimony}</p>
-                <div className="text-[#F59E0B] font-medium">— Testifier, Lagos</div>
+              <div key={i} className="bg-white/10 backdrop-blur border border-white/20 p-8 rounded-3xl">
+                <div className="text-5xl mb-6">“</div>
+                <p className="text-base leading-relaxed mb-6">{testimony}</p>
+                <div className="text-[#F59E0B] text-sm">— Testifier, Lagos</div>
               </div>
             ))}
           </div>
@@ -770,27 +753,27 @@ function App() {
       </section>
 
       {/* GIVING */}
-      <section id="give" className="py-24 bg-gradient-to-br from-[#FEF3E8] to-white">
+      <section id="give" className="py-20 bg-gradient-to-br from-[#FEF3E8] to-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-5xl heading-font font-bold text-[#4C1D95] mb-6">Support the Kingdom Work</h2>
-          <p className="text-xl text-zinc-700 mb-12">Your generous giving helps us reach more souls for Christ</p>
+          <h2 className="text-4xl heading-font font-bold text-[#4C1D95] mb-4">Support the Kingdom</h2>
+          <p className="text-base text-zinc-700 mb-10">Your generosity helps spread the Gospel</p>
 
-          <div className="bg-white rounded-3xl shadow-2xl p-12">
-            <div className="text-7xl mb-8">🙏</div>
-            <h3 className="text-4xl font-semibold mb-10">Give Online Securely</h3>
+          <div className="bg-white rounded-3xl shadow-xl p-10">
+            <div className="text-6xl mb-6">🙏</div>
+            <h3 className="text-3xl font-semibold mb-8">Give Online Securely</h3>
 
-            <div className="grid grid-cols-3 gap-4 mb-10">
+            <div className="grid grid-cols-3 gap-3 mb-8">
               {[5000, 10000, 25000, 50000, 100000, 200000].map((amt) => (
                 <button
                   key={amt}
-                  className="py-5 border-2 border-zinc-200 hover:border-[#F59E0B] hover:text-[#F59E0B] rounded-3xl font-medium transition"
+                  className="py-4 border border-zinc-200 hover:border-[#F59E0B] hover:text-[#F59E0B] rounded-2xl text-sm font-medium transition"
                 >
                   ₦{amt.toLocaleString()}
                 </button>
               ))}
             </div>
 
-            <button className="w-full py-7 bg-gradient-to-r from-[#4C1D95] to-[#7C3AED] text-white font-semibold text-xl rounded-3xl hover:scale-105 transition-all">
+            <button className="w-full py-5 bg-gradient-to-r from-[#4C1D95] to-[#7C3AED] text-white font-medium rounded-3xl text-base hover:scale-105 transition-all">
               Give Now with Paystack
             </button>
           </div>
@@ -798,18 +781,18 @@ function App() {
       </section>
 
       {/* LOCATION */}
-      <section className="py-24 bg-white">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16">
+          <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-5xl heading-font font-bold text-[#4C1D95] mb-10">Visit Us</h2>
-              <div className="space-y-8 text-lg">
-                <div className="flex gap-5">
-                  <MapPin className="w-7 h-7 text-[#F59E0B] mt-1 flex-shrink-0" />
+              <h2 className="text-4xl heading-font font-bold text-[#4C1D95] mb-8">Visit Us</h2>
+              <div className="space-y-6 text-base">
+                <div className="flex gap-4">
+                  <MapPin className="w-6 h-6 text-[#F59E0B] mt-1 flex-shrink-0" />
                   <div>12 Redemption Avenue, Ikeja, Lagos, Nigeria</div>
                 </div>
-                <div className="flex gap-5">
-                  <Clock className="w-7 h-7 text-[#F59E0B] mt-1 flex-shrink-0" />
+                <div className="flex gap-4">
+                  <Clock className="w-6 h-6 text-[#F59E0B] mt-1 flex-shrink-0" />
                   <div>
                     Sunday Services: 8:00 AM &amp; 10:30 AM<br />
                     Wednesday Bible Study: 6:30 PM<br />
@@ -819,7 +802,7 @@ function App() {
               </div>
             </div>
 
-            <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl border border-purple-100">
+            <div className="aspect-video rounded-3xl overflow-hidden shadow-xl border border-purple-100">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.5!2d3.348!3d6.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2f!2sIkeja!5e0!3m2!1sen!2sng!4v123456789"
                 width="100%"
@@ -834,30 +817,28 @@ function App() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-gradient-to-br from-black to-[#4C1D95] text-white py-20">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
+      <footer className="bg-gradient-to-br from-black to-[#4C1D95] text-white py-16">
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10 text-sm">
           <div>
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-12 h-12 bg-white text-[#4C1D95] rounded-2xl flex items-center justify-center text-4xl">✝</div>
-              <div className="text-3xl heading-font">Grace Covenant</div>
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-10 h-10 bg-white text-[#4C1D95] rounded-2xl flex items-center justify-center text-3xl">✝</div>
+              <div className="text-2xl heading-font">Grace Covenant</div>
             </div>
-            <p className="text-zinc-400">Raising a generation that knows God intimately and impacts the world.</p>
+            <p className="text-zinc-400">Raising a generation that knows God intimately.</p>
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-6 text-[#F59E0B]">Quick Links</h4>
-            <div className="space-y-3 text-zinc-400">
+            <h4 className="font-semibold text-[#F59E0B] mb-5">Quick Links</h4>
+            <div className="space-y-2 text-zinc-400">
               {navLinks.map((l) => (
-                <a key={l.name} href={l.href} className="block hover:text-white transition-colors">
-                  {l.name}
-                </a>
+                <a key={l.name} href={l.href} className="block hover:text-white">{l.name}</a>
               ))}
             </div>
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-6 text-[#F59E0B]">Connect</h4>
-            <div className="flex gap-8 text-4xl">
+            <h4 className="font-semibold text-[#F59E0B] mb-5">Connect</h4>
+            <div className="flex gap-6 text-3xl">
               <a href="#" className="hover:text-[#F59E0B]">📘</a>
               <a href="#" className="hover:text-[#F59E0B]">📸</a>
               <a href="#" className="hover:text-[#F59E0B]">▶️</a>
@@ -866,16 +847,16 @@ function App() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-6 text-[#F59E0B]">Service Times</h4>
-            <div className="text-zinc-400 space-y-2">
-              <div>Sunday Worship — 8:00 AM &amp; 10:30 AM</div>
-              <div>Wednesday Bible Study — 6:30 PM</div>
-              <div>Friday Prayer Night — 7:00 PM</div>
+            <h4 className="font-semibold text-[#F59E0B] mb-5">Service Times</h4>
+            <div className="text-zinc-400 space-y-1">
+              <div>Sunday: 8:00 AM &amp; 10:30 AM</div>
+              <div>Wednesday: 6:30 PM</div>
+              <div>Friday: 7:00 PM</div>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-white/20 mt-16 pt-10 text-center text-sm text-zinc-500">
+        <div className="border-t border-white/20 mt-16 pt-8 text-center text-xs text-zinc-500">
           © 2026 Grace Covenant International Church • Lagos, Nigeria
         </div>
       </footer>
