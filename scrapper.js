@@ -56,7 +56,7 @@ const crawler = new PlaywrightCrawler({
       url: request.url,
       title,
       headings,
-      paragraphs: paragraphs.slice(0, 20), // limit to avoid huge data
+      paragraphs: paragraphs.slice(0, 500), // limit to avoid huge data
       links: allLinks.slice(0, 50),
       scrapedAt: new Date().toISOString()
     });

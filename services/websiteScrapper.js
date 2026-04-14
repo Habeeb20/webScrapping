@@ -68,7 +68,8 @@ import { chromium } from 'playwright';
 const emailRegex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/gi;
 
 // Better regex for social media
-const facebookRegex = /(?:https?:\/\/)?(?:www\.)?(?:facebook|fb|m\.facebook)\.(?:com|me)\/(?:[\w\-\.]+\/?)/gi;
+
+const facebookRegex = /https?:\/\/(?:www\.)?(?:facebook|fb)\.com\/(?:[^\/\s]+\/?)(?!.*(?:share|photo|posts))/gi;
 const linkedinRegex = /(?:https?:\/\/)?(?:www\.)?linkedin\.com\/(?:in|company|pub)\/[\w\-\.]+\/?/gi;
 
 export const scrapeWebsite = async (url) => {
@@ -106,6 +107,13 @@ export const scrapeWebsite = async (url) => {
         /facebook|instagram|linkedin|tiktok|twitter/.test(h.toLowerCase())
       )
     );
+
+    const cleanFacebook = scraped.social
+  .filter(link => link.includes('facebook.com') || link.includes('fb.com'))
+  .map(link => {
+    // Clean and make sure it's a proper page link
+    return link.split('?')[0].split(';')[0];   // remove query params
+  });
 
     await browser.close();
 
