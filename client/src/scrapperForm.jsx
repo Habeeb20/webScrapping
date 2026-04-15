@@ -52,8 +52,8 @@ const ScraperForm = () => {
     setResult(null);
 
     try {
-      // const response = await fetch('https://webscrapping-jm2m.onrender.com/api/jobs/scrape', {
-      const response = await fetch('http://localhost:3030/api/jobs/scrape', {
+      const response = await fetch('https://webscrapping-jm2m.onrender.com/api/jobs/scrape', {
+      // const response = await fetch('http://localhost:3030/api/jobs/scrape', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -88,8 +88,8 @@ const ScraperForm = () => {
     setError('');
 
     try {
-      // const response = await fetch('https://webscrapping-jm2m.onrender.com/api/jobs/leads');
-      const response = await fetch('http://localhost:3030/api/jobs/leads');
+      const response = await fetch('https://webscrapping-jm2m.onrender.com/api/jobs/leads');
+      // const response = await fetch('http://localhost:3030/api/jobs/leads');
 
       if (!response.ok) throw new Error('Failed to fetch leads');
 
