@@ -29,7 +29,7 @@ const ScraperForm = () => {
   const [showAllLeadsModal, setShowAllLeadsModal] = useState(false);
   const [loadingAllLeads, setLoadingAllLeads] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const leadsPerPage = 20;
+  const leadsPerPage = 60;
   // Handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -52,8 +52,8 @@ const ScraperForm = () => {
     setResult(null);
 
     try {
-      const response = await fetch('https://webscrapping-jm2m.onrender.com/api/jobs/scrape', {
-      // const response = await fetch('http://localhost:3030/api/jobs/scrape', {
+      // const response = await fetch('https://webscrapping-jm2m.onrender.com/api/jobs/scrape', {
+      const response = await fetch('http://localhost:3030/api/jobs/scrape', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -69,6 +69,7 @@ const ScraperForm = () => {
 
       if (data.success) {
         setResult(data);
+        console.log('Scraping result:', data);
         setShowResultModal(true);
       } else {
         setError(data.error || 'Failed to start scraping');
@@ -88,8 +89,8 @@ const ScraperForm = () => {
     setError('');
 
     try {
-      const response = await fetch('https://webscrapping-jm2m.onrender.com/api/jobs/leads');
-      // const response = await fetch('http://localhost:3030/api/jobs/leads');
+      // const response = await fetch('https://webscrapping-jm2m.onrender.com/api/jobs/leads');
+      const response = await fetch('http://localhost:3030/api/jobs/leads');
 
       if (!response.ok) throw new Error('Failed to fetch leads');
 
@@ -477,16 +478,72 @@ const ScraperForm = () => {
         <form onSubmit={handleSubmit} className="scraper-form">
           {/* Country, City, Area, Category, Depth - unchanged */}
           <div className="form-group">
-            <label>Country <span className="required">*</span></label>
-            <select name="country" className="select-field" value={formData.country} onChange={handleChange} required>
-              <option value="Cameroon">Cameroon</option>
-              <option value="Nigeria">Nigeria</option>
-              <option value="Ghana">Ghana</option>
-              <option value="Ivory Coast">Ivory Coast</option>
-              <option value="Kenya">Kenya</option>
-              <option value="Senegal">Senegal</option>
-              <option value="Other">Other</option>
-            </select>
+       <select 
+  name="country" 
+  className="select-field" 
+  value={formData.country} 
+  onChange={handleChange} 
+  required
+>
+  <option value="">-- Select Country --</option>
+  
+  <option value="Algeria">Algeria</option>
+  <option value="Angola">Angola</option>
+  <option value="Benin">Benin</option>
+  <option value="Botswana">Botswana</option>
+  <option value="Burkina Faso">Burkina Faso</option>
+  <option value="Burundi">Burundi</option>
+  <option value="Cameroon">Cameroon</option>
+  <option value="Cape Verde">Cape Verde</option>
+  <option value="Central African Republic">Central African Republic</option>
+  <option value="Chad">Chad</option>
+  <option value="Comoros">Comoros</option>
+  <option value="Congo">Congo</option>
+  <option value="Democratic Republic of the Congo">Democratic Republic of the Congo</option>
+  <option value="Djibouti">Djibouti</option>
+  <option value="Egypt">Egypt</option>
+  <option value="Equatorial Guinea">Equatorial Guinea</option>
+  <option value="Eritrea">Eritrea</option>
+  <option value="Eswatini">Eswatini</option>
+  <option value="Ethiopia">Ethiopia</option>
+  <option value="Gabon">Gabon</option>
+  <option value="Gambia">Gambia</option>
+  <option value="Ghana">Ghana</option>
+  <option value="Guinea">Guinea</option>
+  <option value="Guinea-Bissau">Guinea-Bissau</option>
+  <option value="Ivory Coast">Ivory Coast</option>
+  <option value="Kenya">Kenya</option>
+  <option value="Lesotho">Lesotho</option>
+  <option value="Liberia">Liberia</option>
+  <option value="Libya">Libya</option>
+  <option value="Madagascar">Madagascar</option>
+  <option value="Malawi">Malawi</option>
+  <option value="Mali">Mali</option>
+  <option value="Mauritania">Mauritania</option>
+  <option value="Mauritius">Mauritius</option>
+  <option value="Morocco">Morocco</option>
+  <option value="Mozambique">Mozambique</option>
+  <option value="Namibia">Namibia</option>
+  <option value="Niger">Niger</option>
+  <option value="Nigeria">Nigeria</option>
+  <option value="Rwanda">Rwanda</option>
+  <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+  <option value="Senegal">Senegal</option>
+  <option value="Seychelles">Seychelles</option>
+  <option value="Sierra Leone">Sierra Leone</option>
+  <option value="Somalia">Somalia</option>
+  <option value="South Africa">South Africa</option>
+  <option value="South Sudan">South Sudan</option>
+  <option value="Sudan">Sudan</option>
+  <option value="Tanzania">Tanzania</option>
+  <option value="Togo">Togo</option>
+  <option value="Tunisia">Tunisia</option>
+  <option value="Uganda">Uganda</option>
+  <option value="Zambia">Zambia</option>
+  <option value="Zimbabwe">Zimbabwe</option>
+
+  <option value="Other">Other</option>
+</select>
           </div>
 
           <div className="form-group">
@@ -555,9 +612,9 @@ const ScraperForm = () => {
                       <th>Phone</th>
                       <th>WhatsApp</th>
                       <th>Facebook</th>
-                      <th>LinkedIn</th>
+                      <th>Website</th>
                       <th>Country</th>
-                      <th>Email</th>
+                      <th>Address</th>
                       <th>Quality</th>
                     </tr>
                   </thead>
@@ -566,11 +623,11 @@ const ScraperForm = () => {
                       <tr key={lead._id || index}>
                         <td>{lead.businessName}</td>
                         <td>{lead.phone || '-'}</td>
-                        <td>{lead.whatsappNumber ? '✅ Yes' : '-'}</td>
-                        <td>{lead.facebook ? <a href={lead.facebook} target="_blank" rel="noopener noreferrer">View</a> : '—'}</td>
-                        <td>{lead.linkedin ? <a href={lead.linkedin} target="_blank" rel="noopener noreferrer">View</a> : '—'}</td>
+                        <td>{lead.whatsappNumber ? '✅ Yes' : lead.phone}</td>
+                        <td>{lead.facebook ? <a href={lead.socialLinks?.facebook} target="_blank" rel="noopener noreferrer">View</a> : '—'}</td>
+                        <td>{lead.website ? <a href={lead.website} target="_blank" rel="noopener noreferrer">View</a> : '—'}</td>
                         <td>{lead.country || 'Cameroon'}</td>
-                        <td>{lead.email || '-'}</td>
+                        <td>{lead.address || '-'}</td>
                         <td><span className={`quality-badge ${lead.leadQuality?.toLowerCase() || 'incomplete'}`}>{lead.leadQuality || 'INCOMPLETE'}</span></td>
                       </tr>
                     ))}
