@@ -69,8 +69,8 @@
 
 
 
-
 import Lead from '../models/Lead.js';
+
 import { scrapeWebsite } from './websiteScrapper.js';
 import { normalizePhone,generateWhatsAppLink, isLikelyWhatsApp } from '../utils/phoneUtils.js';
 
