@@ -2,7 +2,7 @@ import express from 'express';
 import { searchGooglePlaces } from '../services/placesServices.js';
 import { processLeads } from '../services/dataProcessor.js';
 
-import Lead from '../models/Lead.js';
+import Lead from '../models/lead.js';
 
 
 const router = express.Router();

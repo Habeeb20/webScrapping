@@ -67,9 +67,9 @@
 //   return { processedLeads: savedLeads, totalProcessed: savedLeads.length };
 // };
 
+import Lead from '../models/lead.js';
 
 
-import Lead from '../models/Lead.js';
 
 import { scrapeWebsite } from './websiteScrapper.js';
 import { normalizePhone,generateWhatsAppLink, isLikelyWhatsApp } from '../utils/phoneUtils.js';
