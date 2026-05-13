@@ -52,9 +52,9 @@ const ScraperForm = () => {
     setResult(null);
 
     try {
-      // const response = await fetch('https://webscrapping-jm2m.onrender.com/api/jobs/scrape', {
-      const response = await fetch('https://webscrapping-1-if8r.onrender.com/api/jobs/scrape', {
-      // const response = await fetch('http://localhost:3030/api/jobs/scrape', {
+   
+      // const response = await fetch('https://webscrapping-1-if8r.onrender.com/api/jobs/scrape', {
+      const response = await fetch('http://localhost:3030/api/jobs/scrape', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -90,9 +90,9 @@ const ScraperForm = () => {
     setError('');
 
     try {
-      // const response = await fetch('https://webscrapping-jm2m.onrender.com/api/jobs/leads');
-      const response = await fetch('https://webscrapping-1-if8r.onrender.com/api/jobs/leads');
-      // const response = await fetch('http://localhost:3030/api/jobs/leads');
+  
+      // const response = await fetch('https://webscrapping-1-if8r.onrender.com/api/jobs/leads');
+      const response = await fetch('http://localhost:3030/api/jobs/leads');
 
       if (!response.ok) throw new Error('Failed to fetch leads');
 
@@ -571,7 +571,7 @@ const ScraperForm = () => {
             </select>
           </div>
 
-          <button type="submit" className="scrape-button" disabled={isLoading}>
+          {/* <button type="submit" className="scrape-button" disabled={isLoading}>
             {isLoading ? (
               <>
                 <span className="spinner"></span>
@@ -580,7 +580,7 @@ const ScraperForm = () => {
             ) : (
               '🚀 Start Scraping Leads'
             )}
-          </button>
+          </button> */}
         </form>
 
         {error && <div className="error-message">{error}</div>}
